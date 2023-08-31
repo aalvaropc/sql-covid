@@ -1,15 +1,33 @@
-import React from 'react'
-import modeloImg from '../../assets/modelo.png'
+// import React from 'react'
+// import modeloImg from '../../assets/modelo.png'
+// const Modelo = () => {
+//   return (
+//     <div>
+//       <img
+//         className="max-w-full h-auto"
+//         src={modeloImg}
+//         alt="Covid"
+//       />
+//     </div>
+//   )
+// }
+
+// export default Modelo
+
+import React from 'react';
+import modeloImg from '../../assets/modelo.png';
+
 const Modelo = () => {
   return (
-    <div>
+    <div className="max-w-full mx-auto">
       <img
-        className="h-85"
+        className="w-full h-auto"
         src={modeloImg}
         alt="Covid"
       />
     </div>
-  )
-}
+  );
+};
 
-export default Modelo
+export default Modelo;
+

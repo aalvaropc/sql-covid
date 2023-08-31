@@ -1,7 +1,4 @@
-
-import React from 'react';
 import Covid from '../components/Covid/Covid';
-
 
 function Home() {
   return (

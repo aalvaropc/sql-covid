@@ -14,10 +14,10 @@ export default function Respuesta({askId, title, sql}) {
       <Accordion open={openAcc1}>
         <AccordionHeader onClick={handleOpenAcc1}>{title}</AccordionHeader>
         <AccordionBody>
-          {sql}
-          {/* <SqlCode 
-            sql
-          /> */}
+          {/* {sql} */}
+          <SqlCode 
+            sql={sql}
+          />
         </AccordionBody>
       </Accordion>
     </>
