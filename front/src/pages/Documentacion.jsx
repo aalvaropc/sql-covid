@@ -2,7 +2,7 @@ import React from "react";
 import { getDatos } from "../api/covid.api";
 import { useEffect, useState } from "react";
 import { Button } from "@material-tailwind/react";
-import { Card, Typography } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 import {
   SEXO_DATA,
   CLASIFICACIONES_DATA,
@@ -15,27 +15,27 @@ import Tabla from "../components/Tabla/Tabla";
 const TABLAS = [
   {
     id: "1",
-    title: "Tabla: Sexo",
-    content: SEXO_DATA,
-  },
-  {
-    id: "2",
-    title: "Tabla: Clasificaciones",
-    content: CLASIFICACIONES_DATA,
-  },
-  {
-    id: "3",
-    title: "Tabla: Pacientes",
+    title: "Pacientes",
     content: PACIENTES_DATA,
   },
   {
+    id: "2",
+    title: "Sexo",
+    content: SEXO_DATA,
+  },
+  {
+    id: "3",
+    title: "Clasificaciones",
+    content: CLASIFICACIONES_DATA,
+  },
+  {
     id: "4",
-    title: "Tabla: TiposPaciente",
+    title: "TiposPaciente",
     content: TIPOS_PACIENTE_DATA,
   },
   {
     id: "5",
-    title: "Tabla: DatosSalud",
+    title: "DatosSalud",
     content: DATOS_SALUD_DATA,
   },
 ];

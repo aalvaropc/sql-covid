@@ -11,9 +11,7 @@
   }
 }
 
-/* Añade media queries según sea necesario */
 @media (max-width: 768px) {
   .rotating-image {
-    /* Reglas específicas para tamaños de pantalla más pequeños */
   }
 }

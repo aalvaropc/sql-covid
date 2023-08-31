@@ -4,7 +4,7 @@ const Tabla = ({ title, content }) => {
   return (
     <div>
       <Typography variant="h4">{title}</Typography>
-      <div>
+      <div className="mt-3">
         <Card className="w-96">
           <table className="w-96 text-left">
             <tbody>
@@ -31,7 +31,7 @@ const Tabla = ({ title, content }) => {
                         color="blue-gray"
                         className="font-normal"
                       >
-                        {item.description}
+                          {item.description}
                       </Typography>
                     </td>
                   </tr>

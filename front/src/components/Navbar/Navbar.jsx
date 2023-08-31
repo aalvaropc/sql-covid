@@ -69,8 +69,6 @@ export function NavBar() {
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <Link to="/">
         <Typography
-          // as="a"
-          // href="#"
           className="mr-4 cursor-pointer py-1.5 font-medium"
         >
           
@@ -78,9 +76,6 @@ export function NavBar() {
         </Typography>
         </Link>
         <div className="hidden lg:block">{navList}</div>
-        {/* <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-          <span>REPOSITORIO</span>
-        </Button> */}
         <a href="https://github.com/aalvaropc/sql-covid" target="_blank" rel="noopener noreferrer">
           <Button variant="gradient" size="sm" className="hidden lg:inline-block">
             <span>REPOSITORIO</span>

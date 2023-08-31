@@ -30,7 +30,9 @@ const Pregunta = ({askId, title, content}) => {
       <Accordion open={open === askId} icon={<Icon id={askId} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(askId)}>{title}</AccordionHeader>
         <AccordionBody>
+          <div className='text-justify'>
           {content}
+          </div>
         </AccordionBody>
       </Accordion>
     </div>

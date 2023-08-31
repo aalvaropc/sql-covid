@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import datos from "../data/data";
 import Respuesta from "../components/Respuesta/Respuesta";
 
