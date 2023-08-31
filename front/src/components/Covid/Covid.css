@@ -1,0 +1,19 @@
+.rotating-image {
+  animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Añade media queries según sea necesario */
+@media (max-width: 768px) {
+  .rotating-image {
+    /* Reglas específicas para tamaños de pantalla más pequeños */
+  }
+}
