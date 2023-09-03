@@ -2,7 +2,7 @@ import { Typography } from "@material-tailwind/react";
 
 export function Footer() {
   return (
-    <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-4 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between">
+    <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-4 gap-x-12 border-t border-blue-gray-50 py-2 text-center md:justify-between">
       <Typography color="blue-gray" className="font-normal">
         &copy; 2023 Alvaro Peña. All Rights Reserved.
       </Typography>
